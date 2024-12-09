@@ -1,8 +1,21 @@
 canvas {
-    border: 1px solid black;
+    border: 1px solid white;
+   margin-top: 20px;
     
 }
 
 body {
     margin: 0;
+    padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      background-color: #041048;
+      color: aliceblue;
 }
+
+.audio-controls {
+    margin-top: 20px;
+  }
